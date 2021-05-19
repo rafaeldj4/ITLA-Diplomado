@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.com</title>
+</head>
+<body>
+    <h1>Reserva de vuelo</h1>
+    <hr>
+    <h3>Ingresa tu informacion</h3>
+
+    <form action="mailto:rafaeldj4@gmail.com">
+        <!-- Input Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+
+        <!-- Input Apellido -->
+        <br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="apellido" required>
+
+         <!-- Input Pasaporte -->
+         <br><br>
+         <label for="pasaporte">Pasaporte:</label>
+         <input type="text" name="pasaporte" id="pasaporte" placeholder="Pasaporte" required>
+
+        <!-- Input Email -->
+        <br><br>
+        <label for="correo">Email:</label>
+        <input type="email" name="e-mail" id="correo" placeholder="Email" required>
+
+        <!-- Input Select Pais -->
+        <br><br>
+        <label for="pais">Destino:</label>
+        <select name="pais" id="pais" required>
+            <option value="" selected disabled>--Seleccione su pais--</option>
+            <option value="rd">Rep.Dom</option>
+            <option value="mx">Mexico</option>
+            <option value="usa">United States</option>
+            <option value="co">Colombia</option>
+            <option value="vnz">Venezuela</option>
+        </select>
+
+       <!-- Input Fecha -->
+       <br><br>
+       <label for="salida"><- - - - Salida</label>
+       <label for="">- - - - -> <- - - - -</label>
+       <label for="regreso">Regreso - - - -></label>
+       <br>
+       <input type="date" name="salida" id="salida" required>
+       <input type="date" name="regreso" id="regreso">
+
+        <!-- Input Submitt -->
+        <br><br>
+        <input type="submit" value="MAS INFORMACION">
+        <input type="submit" value="RESERVAR">
+        
+
+    </form>
+
+
+
+</body>
+</html>
