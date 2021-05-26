@@ -1,0 +1,92 @@
+.BoxContainer{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background-color:#FF6669 ;
+    left:300px;
+    top:80px;
+}
+
+#NombresID{
+    position: absolute;
+    left:140px;
+    top:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+.NombresC{
+    position: absolute;
+    left:240px;
+    top:30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.ApellidosC{
+    position: absolute;
+    left:240px;
+    top:90px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.CorreoC{
+    position: absolute;
+    left:240px;
+    top:160px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.DireccionC{
+    position: absolute;
+    left:240px;
+    top:230px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+#ApellidosID{
+    position: absolute;
+    left:140px;
+    top:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+#DirecionID{
+    position: absolute;
+    left:140px;
+    top:170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+#CorreoID{
+    position: absolute;
+    left:140px;
+    top:240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+.BotonC{
+    position: absolute;
+    top:300px;
+    left:250px;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.BotonC:hover{
+    background-color: navy;
+}
