@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fcfb;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utilidades */
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+
+.contenedor {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.left-side {
+    background-color: #164F75;
+    width: 120%;
+    padding: 0px 60px;
+    height: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.avatar {
+   text-align: center;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.imagen img {
+    width: 65%;
+    border: 4px white solid;
+    border-radius: 50%;
+}
+
+.nombre {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.profesion {
+    color:white;
+    background-color:#0E7AAE ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-bottom: dotted 5px white;
+    margin-bottom: 30px;
+}
+
+.titulo {
+   color:white;
+   background-color: #0E7AAE; 
+   margin: 20px 0px;
+   text-align: center;
+   border-radius: 10px;
+   
+}
+.perfil-personal p {
+    line-height: 1.3;
+}
+
+.texto {
+    text-align: left;
+    color: white ;
+}
+
+.informacion-contacto p {
+    margin-bottom: 5px;
+}
+
+.informacion-contacto i {
+    margin-right: 4px;
+}
+
+
+/* Right side */
+
+.right-side {
+    padding: 60px 0px;
+    padding-left: 100px;
+}
+.titulo-right {
+    color: white;
+    background-color: #0E7AAE;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+
+.texto-right{
+    text-align: justify;
+    line-height: 1.3;
+    color: black;
+}
+
+.subtitulo {
+    color:#164F75;
+    margin-top:15px ;
+    margin-bottom: 4px;
+}
+
+.subtexto {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.historial-laboral ul {
+    padding-left: 20px ;
+}
+
+.historial-laboral ul li {
+    margin: 15px 0;
+}
+
+
+ul li {
+    list-style:disc;
+    color:white;
+    
+}
+
+span {
+    color: grey;
+    padding: 20px;
+}
+
+.educacion ul li {
+    color:black;
+    list-style: none;
+    padding: 10px;
+}
