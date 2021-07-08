@@ -1,0 +1,286 @@
+:root {
+    --blue: #1554f0;
+    --dark: #475460;
+    --white: #ffffff;
+    --white-f2: #f2f2f2;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475460;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: none;
+    border-bottom: solid .2rem #ECEFF1;
+    margin-bottom: 2rem;
+}
+
+.header__title {
+    font-size: 3rem;
+    color: #1554f0;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__links {
+    font-size: 1.7rem;
+    color: #475460;
+}
+
+.nav__links:hover {
+    color: #1554f0;
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+
+.btn-agregar {
+    background-color: #1554f0;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+.btn-agregar:hover {
+    color: white;
+    text-decoration: none;
+  background-color: #0044f0;
+}
+
+.agregar__tablero {
+    margin-left: .5rem;
+}
+
+/* Main */
+
+.main {
+    /* background-color: #f2f2f2; */
+    background-color: #1554f0;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.dashboard {
+    /* background-color: #f2f2f2; */
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.budget {
+   background-color: white; 
+   border-radius: .2rem;
+   padding: 4rem 2rem;
+}
+
+.budget__title {
+    font-size: 1.6rem;
+}
+
+.budget__money {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.budget__hora {
+    font-size: 1.3rem;
+}
+
+.budget__date {
+    font-size: 1.3rem;
+}
+
+
+/* Gastos */
+
+.gastos__main {
+    width: 45%;
+    height: auto;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.formulario__gastos-container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 2rem 0;
+    border-radius: .1rem;
+}
+
+.gastos__formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+
+
+.gastos__title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-bottom: 4rem;
+}
+
+.gastos__subtitle i {
+    font-size: 3.6rem;
+}
+
+.gastos__subtitle {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gastos__form-text {
+    font-size: 1.6rem;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.monto__moneda {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  
+}
+
+.monedas {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.gastos__monedas {
+    font-size: 1.3rem;
+}
+
+.monto__moneda .gastos__form-text {
+    display: inline-block;
+}
+
+.gastos__formulario textarea {
+    width: 100%;
+    max-width:100% ;
+    min-width: 100%;
+    min-height: 13rem;
+    max-height: auto;
+    padding:  .5rem .8rem;
+    margin-bottom:.5rem ;
+    outline: none;
+    border: .1rem solid #dee2e6;
+}
+
+.gastos__formulario input {
+    width: 100%;
+    height: auto;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    outline: none;
+    border: .2rem solid #dee2e6;
+    border-radius: .2rem;
+}
+
+.categorias__fecha {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+
+.monto__moneda input {
+    width: auto;
+    margin-bottom: 0;
+    height: auto;
+    padding: .2rem ;
+}
+
+
+.agregar-btn {
+    background-color: #4CAF50;
+    border: none;
+    padding: 1.5rem 0;
+    font-weight: bold;
+    color: var(--white);
+    border-radius: .2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    margin-top: 2rem;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    /* height: 4rem; */
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.gastos__footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer__nav a {
+    font-size: 1.3rem;
+    color: #475460;
+}
+
+.footer__nav a:hover {
+    transition: all .3s;
+    color: #1554f0;
+    text-decoration: underline;
+    
+}

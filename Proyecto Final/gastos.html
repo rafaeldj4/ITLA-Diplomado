@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gastos</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./waves-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95347.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2><a class="header__title" href="./index.html">Billetera</a></h2>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li>
+            <a class="nav__links tablero" href="./index.html"
+              >Tablero <span><i class="far fa-calendar-alt"></i></span
+            ></a>
+          </li>
+          <li>
+            <a class="nav__links gastos" href="./gastos.html"
+              >Gastos <span><i class="fas fa-coins"></i></span
+            ></a>
+          </li>
+          <li>
+            <a class="nav__links exit__link" href="./login.html"
+              >Salir <span><i class="fas fa-sign-out-alt"></i></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main class="main gastos__main p-4">
+      <div class="formulario__gastos-container">
+        <form class="gastos__formulario" action="">
+          <!-- <h2 class="gastos__title">
+            Gastos <span><i class="fas fa-coins"></i></span>
+          </h2> -->
+          <h3 class="gastos__subtitle">REGISTRO <span><i class="fas fa-edit"></i></span></h3>
+          <hr />
+
+          <label for="descripcion">
+            <span class="gastos__form-text">Descripcion del gasto</span>
+            <textarea
+              name="descripcion"
+              id="descripcion"
+              placeholder="Descripcion del gasto"
+            ></textarea>
+          </label>
+<div class="categorias__fecha">
+          <label for="categorias">
+            <span class="gastos__form-text">Categoria</span>
+            <input list="categorias"/>
+            <datalist id="categorias">
+              <option value="Personal"></option>
+              <option value="Diversion"></option>
+              <option value="Transporte"></option>
+              <option value="Otros"></option>
+            </datalist>
+          </label>
+
+          <label for="fechaGasto">
+              <span class="gastos__form-text">Fecha del gasto</span>
+              <input type="date" name="fechaGasto" id="fechaGasto">
+          </label>
+        </div>
+
+          <div class="monto__moneda">
+          <label for="monto">
+              <span class="gastos__form-text">Monto</span>
+              <input type="number" name="monto" id="monto" placeholder="0.00" step="any">
+          </label>
+<div class="monedas">
+    <span class="gastos__form-text">Moneda:</span>
+          <label for="moneda__dop">
+              
+              <input type="radio" name="moneda" id="moneda__dop">
+              <span class="gastos__monedas">DOP</span>
+          </label>
+
+          <label for="moneda__usd">
+            <input type="radio" name="moneda" id="moneda__usd">
+            <span class="gastos__monedas">USD</span>
+        </label>
+    </div>
+    </div>
+
+        <button type="submit" class="agregar-btn" id="agregar">AGREGAR <span><i class="fas fa-plus"></i></span></button>
+
+
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer gastos__footer">
+      <ul class="footer__nav">
+        <li><a href="#">Privacy </a></li>
+        <li><a href="#">Cookies </a></li>
+        <li><a href="#">Security & Legal </a></li>
+        <li><a href="#">General Terms of Use </a></li>
+        <li><a href="#">Online Access Agreement </a></li>
+        <li><a href="#">Ad Choices </a></li>
+        <li><a href="#">Contact Us </a></li>
+        <li><a href="#">Report Fraud </a></li>
+      </ul>
+    </footer>
+    <script src="./gastos.js"></script>
+  </body>
+</html>
