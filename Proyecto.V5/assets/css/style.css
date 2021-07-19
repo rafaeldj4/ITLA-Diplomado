@@ -1,0 +1,159 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/* div.row > div:nth-child(even) {
+    background-color:crimson;
+    color: white;
+} */
+
+:root {
+    --blue: #1554f0;
+    --dark: #475460;
+    --white: #ffffff;
+    --white-f2: #f2f2f2;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475460;
+    font-size: 1.6rem;
+    background-color: var(--white-f2);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  *HEADER*                                  */
+/* -------------------------------------------------------------------------- */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.navbar-brand {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--blue) !important;
+}
+
+.collapse a {
+    font-size: 1.7rem;
+}
+
+.collapse .btn {
+    font-size: 1.3rem;
+}
+
+.collapse a:hover {
+    color: #1554f0 !important;
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+.btn {
+    background-color: #1554f0;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: .5rem;
+    font-weight:bold;
+    
+}
+
+
+.collapse .btn:hover {
+    color: white !important;
+    text-decoration: none;
+  background-color: #0044f0;
+}
+
+.btn i {
+    margin-left: .4rem;
+}
+
+.form-select-sm {
+    font-size: 1.6rem;
+}
+
+.bi-funnel-fill::before {
+    color: var(--blue);
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  *Footer*                                  */
+/* -------------------------------------------------------------------------- */
+
+.footer {
+    /* margin-top: 2rem; */
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    /* height: 4rem; */
+    background-color: var(--blue);
+    padding: 1rem 0;
+}
+
+.gastos__footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer__nav a {
+    font-size: 1.3rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer__nav a:hover {
+    transition: all .3s;
+    color: var(--white-f2);
+    text-decoration: underline;
+    
+}
+
+.gastos__subtitle {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 3.4rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+input, select, option {
+    font-size: 1.6rem !important;
+}
+
+label {
+    color: var(--blue);
+}

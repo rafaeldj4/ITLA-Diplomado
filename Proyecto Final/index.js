@@ -3,7 +3,7 @@ const tablero = document.querySelector(".tablero");
 if (window.location.href) {
   tablero.style.color = "#1554f0";
 }
-
+// comentario
 // Fechas
 let fecha = new Date();
 let fechaCalendario = fecha.toLocaleDateString();
@@ -46,7 +46,7 @@ const gastos = [
 const agregarGastos = (misGastos) => {
     contenedor.innerHTML = contenedor.innerHTML + 
 
-    `  
+    ` 
     <div class="budget">
          <h4 class="budget__title">${misGastos.descripcion}</h4>
         <p class="budget__money">${misGastos.moneda} ${misGastos.monto}</p>
@@ -74,4 +74,5 @@ for (let index = 0; gastos.length > index; index++) {
 // console.log(fecha.toDateString()); Tue Jul 06 2021
 // console.log(fecha.toLocaleDateString()); 6/7/2021
 // console.log(fecha.toLocaleTimeString()); 11:29:51
+
 

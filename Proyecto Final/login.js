@@ -1,7 +1,7 @@
 // Login
 const usuario = document.querySelector(".usuario");
 const contrasena = document.querySelector(".contrasena");
-const ingresar__header = document.querySelector(".boton__header");
+// const ingresar__header = document.querySelector(".boton__header");
 const ingresar__main = document.querySelector(".boton__main");
 
 
@@ -27,7 +27,7 @@ setTimeout( function( ) {
   }
 };
 
-ingresar__header.addEventListener("click", ingreso);
+// ingresar__header.addEventListener("click", ingreso);
 ingresar__main.addEventListener("click", ingreso);
 
 

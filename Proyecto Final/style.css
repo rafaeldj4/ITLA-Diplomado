@@ -29,6 +29,10 @@ ul {
     list-style: none;
 }
 
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 
 .header {
@@ -129,11 +133,20 @@ hr {
 }
 
 
-/* Gastos */
+/* -------------------------------------------------------------------------- */
+/*                                   *Gastos                                  */
+/* -------------------------------------------------------------------------- */
+
 
 .gastos__main {
-    width: 45%;
+    /* width: 45%; */
     height: auto;
+
+    background-color: #1554f0;
+    /* width: 65%; */
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    
 }
 
 .p-4 {
@@ -145,6 +158,8 @@ hr {
     background-color: var(--white);
     padding: 2rem 0;
     border-radius: .1rem;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .gastos__formulario {
@@ -167,15 +182,15 @@ hr {
 }
 
 .gastos__subtitle {
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5.4rem;
 }
 
 .gastos__form-text {
     font-size: 1.6rem;
     display: block;
-    margin-bottom: .5rem;
+    margin-bottom: .8rem;
 }
 
 .monto__moneda {
@@ -205,7 +220,7 @@ hr {
     min-height: 13rem;
     max-height: auto;
     padding:  .5rem .8rem;
-    margin-bottom:.5rem ;
+    margin-bottom:2.4rem ;
     outline: none;
     border: .1rem solid #dee2e6;
 }
@@ -213,7 +228,7 @@ hr {
 .gastos__formulario input {
     width: 100%;
     height: auto;
-    margin-bottom: .5rem;
+    margin-bottom: 2.4rem;
     padding: .5rem;
     outline: none;
     border: .2rem solid #dee2e6;
@@ -230,7 +245,7 @@ hr {
 
 .monto__moneda input {
     width: auto;
-    margin-bottom: 0;
+    margin-bottom: 2.4rem;
     height: auto;
     padding: .2rem ;
 }

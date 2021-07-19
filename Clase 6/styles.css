@@ -40,6 +40,7 @@ a {
 
 .avatar {
    text-align: center;
+
 }
 
 .imagen{
@@ -70,10 +71,13 @@ a {
     border-radius: 10px;
 }
 
+
 hr {
-    width: 100%;
+    
+    width: 60%;
     border: none;
     border-bottom: dotted 5px white;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 

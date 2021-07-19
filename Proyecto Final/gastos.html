@@ -43,27 +43,27 @@
     </header>
     <hr />
 
-    <main class="main gastos__main p-4">
+    <main class=" gastos__main p-4">
       <div class="formulario__gastos-container">
         <form class="gastos__formulario" action="">
           <!-- <h2 class="gastos__title">
             Gastos <span><i class="fas fa-coins"></i></span>
           </h2> -->
           <h3 class="gastos__subtitle">REGISTRO <span><i class="fas fa-edit"></i></span></h3>
-          <hr />
+          <!-- <hr /> -->
 
           <label for="descripcion">
             <span class="gastos__form-text">Descripcion del gasto</span>
             <textarea
               name="descripcion"
               id="descripcion"
-              placeholder="Descripcion del gasto"
+              placeholder="Descripcion del gasto" required
             ></textarea>
           </label>
 <div class="categorias__fecha">
           <label for="categorias">
             <span class="gastos__form-text">Categoria</span>
-            <input list="categorias"/>
+            <input list="categorias"/ required>
             <datalist id="categorias">
               <option value="Personal"></option>
               <option value="Diversion"></option>
@@ -74,25 +74,25 @@
 
           <label for="fechaGasto">
               <span class="gastos__form-text">Fecha del gasto</span>
-              <input type="date" name="fechaGasto" id="fechaGasto">
+              <input type="date" name="fechaGasto" id="fechaGasto" required>
           </label>
         </div>
 
           <div class="monto__moneda">
           <label for="monto">
               <span class="gastos__form-text">Monto</span>
-              <input type="number" name="monto" id="monto" placeholder="0.00" step="any">
+              <input type="number" name="monto" id="monto" placeholder="0.00" required step="any">
           </label>
 <div class="monedas">
     <span class="gastos__form-text">Moneda:</span>
           <label for="moneda__dop">
               
-              <input type="radio" name="moneda" id="moneda__dop">
+              <input type="radio" name="moneda" id="moneda__dop" required>
               <span class="gastos__monedas">DOP</span>
           </label>
 
           <label for="moneda__usd">
-            <input type="radio" name="moneda" id="moneda__usd">
+            <input type="radio" name="moneda" id="moneda__usd" required>
             <span class="gastos__monedas">USD</span>
         </label>
     </div>
